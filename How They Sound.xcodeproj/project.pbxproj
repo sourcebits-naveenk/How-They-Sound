@@ -14,6 +14,7 @@
 		D07CE8B11BC4E62E0045F339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07CE8B01BC4E62E0045F339 /* Images.xcassets */; };
 		D07CE8B41BC4E62F0045F339 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07CE8B21BC4E62F0045F339 /* LaunchScreen.xib */; };
 		D07CE8C01BC4E62F0045F339 /* How_They_SoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D07CE8BF1BC4E62F0045F339 /* How_They_SoundTests.m */; };
+		D07CE8CB1BC517940045F339 /* AnimalsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D07CE8CA1BC517940045F339 /* AnimalsDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D07CE8B91BC4E62F0045F339 /* How They SoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How They SoundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07CE8BE1BC4E62F0045F339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D07CE8BF1BC4E62F0045F339 /* How_They_SoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = How_They_SoundTests.m; sourceTree = "<group>"; };
+		D07CE8C91BC517940045F339 /* AnimalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalDetails.h; sourceTree = "<group>"; };
+		D07CE8CA1BC517940045F339 /* AnimalsDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalsDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		D07CE8A21BC4E62E0045F339 /* How They Sound */ = {
 			isa = PBXGroup;
 			children = (
+				D0EF42DB1BE08DA400C2DCDB /* Modal */,
 				D07CE8A71BC4E62E0045F339 /* AppDelegate.h */,
 				D07CE8A81BC4E62E0045F339 /* AppDelegate.m */,
 				D07CE8AA1BC4E62E0045F339 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				D07CE8BE1BC4E62F0045F339 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0EF42DB1BE08DA400C2DCDB /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				D07CE8C91BC517940045F339 /* AnimalDetails.h */,
+				D07CE8CA1BC517940045F339 /* AnimalsDetails.m */,
+			);
+			name = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				D07CE8AC1BC4E62E0045F339 /* ViewController.m in Sources */,
 				D07CE8A91BC4E62E0045F339 /* AppDelegate.m in Sources */,
 				D07CE8A61BC4E62E0045F339 /* main.m in Sources */,
+				D07CE8CB1BC517940045F339 /* AnimalsDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +430,7 @@
 				D07CE8C51BC4E62F0045F339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D07CE8C61BC4E62F0045F339 /* Build configuration list for PBXNativeTarget "How They SoundTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				D07CE8C81BC4E62F0045F339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
