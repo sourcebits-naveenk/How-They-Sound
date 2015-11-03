@@ -136,7 +136,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CARTOON_Cat-full.jpg" width="57" height="70"/>
+        <image name="CARTOON_Cat-full.jpg" width="566" height="695"/>
         <image name="Dog.gif" width="350" height="350"/>
         <image name="Duck.jpg" width="183" height="190"/>
         <image name="Tiger.png" width="320" height="320"/>

@@ -16,16 +16,16 @@
 		D07CE8C01BC4E62F0045F339 /* How_They_SoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D07CE8BF1BC4E62F0045F339 /* How_They_SoundTests.m */; };
 		D07CE8CB1BC517940045F339 /* AnimalsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D07CE8CA1BC517940045F339 /* AnimalsDetails.m */; };
 		D0A3A19C1BE87BFD0047866F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A3A19B1BE87BFD0047866F /* AVFoundation.framework */; };
-		D0A3A19E1BE87CD80047866F /* CARTOON_Cat-full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A19D1BE87CD80047866F /* CARTOON_Cat-full.jpg */; };
-		D0A3A1A01BE87E660047866F /* Tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A19F1BE87E660047866F /* Tiger.png */; };
-		D0A3A1A21BE87E6A0047866F /* Dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1A11BE87E6A0047866F /* Dog.gif */; };
-		D0A3A1A41BE87EF60047866F /* Duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1A31BE87EF60047866F /* Duck.jpg */; };
-		D0A3A1AB1BE8826D0047866F /* Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1A71BE8826D0047866F /* Cat.mp3 */; };
-		D0A3A1AC1BE8826D0047866F /* Dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1A81BE8826D0047866F /* Dog.mp3 */; };
-		D0A3A1AD1BE8826D0047866F /* Duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1A91BE8826D0047866F /* Duck.mp3 */; };
-		D0A3A1AE1BE8826D0047866F /* Tiger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1AA1BE8826D0047866F /* Tiger.mp3 */; };
-		D0A3A1B01BE888C70047866F /* crow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1AF1BE888C70047866F /* crow.jpg */; };
-		D0A3A1B21BE889B90047866F /* Crow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1B11BE889B90047866F /* Crow.mp3 */; };
+		D0A3A1B91BE8938A0047866F /* Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1B41BE8938A0047866F /* Cat.mp3 */; };
+		D0A3A1BA1BE8938A0047866F /* Crow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1B51BE8938A0047866F /* Crow.mp3 */; };
+		D0A3A1BB1BE8938A0047866F /* Dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1B61BE8938A0047866F /* Dog.mp3 */; };
+		D0A3A1BC1BE8938A0047866F /* Duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1B71BE8938A0047866F /* Duck.mp3 */; };
+		D0A3A1BD1BE8938A0047866F /* Tiger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1B81BE8938A0047866F /* Tiger.mp3 */; };
+		D0A3A1BF1BE894A70047866F /* Duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1BE1BE894A70047866F /* Duck.jpg */; };
+		D0A3A1C11BE894BF0047866F /* Tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1C01BE894BF0047866F /* Tiger.png */; };
+		D0A3A1C31BE894CF0047866F /* CARTOON_Cat-full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1C21BE894CF0047866F /* CARTOON_Cat-full.jpg */; };
+		D0A3A1C51BE894DA0047866F /* crow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1C41BE894DA0047866F /* crow.jpg */; };
+		D0A3A1C71BE894E30047866F /* Dog.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0A3A1C61BE894E30047866F /* Dog.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,16 +55,16 @@
 		D07CE8C91BC517940045F339 /* AnimalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalDetails.h; sourceTree = "<group>"; };
 		D07CE8CA1BC517940045F339 /* AnimalsDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalsDetails.m; sourceTree = "<group>"; };
 		D0A3A19B1BE87BFD0047866F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		D0A3A19D1BE87CD80047866F /* CARTOON_Cat-full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "CARTOON_Cat-full.jpg"; path = "../../../CARTOON_Cat-full.jpg"; sourceTree = "<group>"; };
-		D0A3A19F1BE87E660047866F /* Tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tiger.png; path = ../../../Tiger.png; sourceTree = "<group>"; };
-		D0A3A1A11BE87E6A0047866F /* Dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Dog.gif; path = ../../../Dog.gif; sourceTree = "<group>"; };
-		D0A3A1A31BE87EF60047866F /* Duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Duck.jpg; path = ../../../Duck.jpg; sourceTree = "<group>"; };
-		D0A3A1A71BE8826D0047866F /* Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cat.mp3; sourceTree = "<group>"; };
-		D0A3A1A81BE8826D0047866F /* Dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dog.mp3; sourceTree = "<group>"; };
-		D0A3A1A91BE8826D0047866F /* Duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Duck.mp3; sourceTree = "<group>"; };
-		D0A3A1AA1BE8826D0047866F /* Tiger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tiger.mp3; sourceTree = "<group>"; };
-		D0A3A1AF1BE888C70047866F /* crow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crow.jpg; path = ../../../crow.jpg; sourceTree = "<group>"; };
-		D0A3A1B11BE889B90047866F /* Crow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crow.mp3; sourceTree = "<group>"; };
+		D0A3A1B41BE8938A0047866F /* Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cat.mp3; sourceTree = "<group>"; };
+		D0A3A1B51BE8938A0047866F /* Crow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crow.mp3; sourceTree = "<group>"; };
+		D0A3A1B61BE8938A0047866F /* Dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dog.mp3; sourceTree = "<group>"; };
+		D0A3A1B71BE8938A0047866F /* Duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Duck.mp3; sourceTree = "<group>"; };
+		D0A3A1B81BE8938A0047866F /* Tiger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tiger.mp3; sourceTree = "<group>"; };
+		D0A3A1BE1BE894A70047866F /* Duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Duck.jpg; sourceTree = "<group>"; };
+		D0A3A1C01BE894BF0047866F /* Tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiger.png; sourceTree = "<group>"; };
+		D0A3A1C21BE894CF0047866F /* CARTOON_Cat-full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CARTOON_Cat-full.jpg"; sourceTree = "<group>"; };
+		D0A3A1C41BE894DA0047866F /* crow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crow.jpg; sourceTree = "<group>"; };
+		D0A3A1C61BE894E30047866F /* Dog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dog.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		D07CE8A21BC4E62E0045F339 /* How They Sound */ = {
 			isa = PBXGroup;
 			children = (
-				D0A3A1A61BE8826D0047866F /* Animal Sounds */,
+				D0A3A1B31BE8938A0047866F /* Animal Sounds 12.26.09 pm */,
 				D0A3A1981BE87B1F0047866F /* Animal Images */,
 				D0EF42DB1BE08DA400C2DCDB /* Modal */,
 				D07CE8A71BC4E62E0045F339 /* AppDelegate.h */,
@@ -152,26 +152,25 @@
 		D0A3A1981BE87B1F0047866F /* Animal Images */ = {
 			isa = PBXGroup;
 			children = (
-				D0A3A19D1BE87CD80047866F /* CARTOON_Cat-full.jpg */,
-				D0A3A19F1BE87E660047866F /* Tiger.png */,
-				D0A3A1A11BE87E6A0047866F /* Dog.gif */,
-				D0A3A1A31BE87EF60047866F /* Duck.jpg */,
-				D0A3A1AF1BE888C70047866F /* crow.jpg */,
+				D0A3A1BE1BE894A70047866F /* Duck.jpg */,
+				D0A3A1C41BE894DA0047866F /* crow.jpg */,
+				D0A3A1C61BE894E30047866F /* Dog.gif */,
+				D0A3A1C21BE894CF0047866F /* CARTOON_Cat-full.jpg */,
+				D0A3A1C01BE894BF0047866F /* Tiger.png */,
 			);
 			name = "Animal Images";
 			sourceTree = "<group>";
 		};
-		D0A3A1A61BE8826D0047866F /* Animal Sounds */ = {
+		D0A3A1B31BE8938A0047866F /* Animal Sounds 12.26.09 pm */ = {
 			isa = PBXGroup;
 			children = (
-				D0A3A1A71BE8826D0047866F /* Cat.mp3 */,
-				D0A3A1A81BE8826D0047866F /* Dog.mp3 */,
-				D0A3A1A91BE8826D0047866F /* Duck.mp3 */,
-				D0A3A1AA1BE8826D0047866F /* Tiger.mp3 */,
-				D0A3A1B11BE889B90047866F /* Crow.mp3 */,
+				D0A3A1B41BE8938A0047866F /* Cat.mp3 */,
+				D0A3A1B51BE8938A0047866F /* Crow.mp3 */,
+				D0A3A1B61BE8938A0047866F /* Dog.mp3 */,
+				D0A3A1B71BE8938A0047866F /* Duck.mp3 */,
+				D0A3A1B81BE8938A0047866F /* Tiger.mp3 */,
 			);
-			name = "Animal Sounds";
-			path = "../../../Animal Sounds";
+			path = "Animal Sounds 12.26.09 pm";
 			sourceTree = "<group>";
 		};
 		D0EF42DB1BE08DA400C2DCDB /* Modal */ = {
@@ -263,19 +262,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A3A1A01BE87E660047866F /* Tiger.png in Resources */,
-				D0A3A19E1BE87CD80047866F /* CARTOON_Cat-full.jpg in Resources */,
+				D0A3A1C51BE894DA0047866F /* crow.jpg in Resources */,
+				D0A3A1BD1BE8938A0047866F /* Tiger.mp3 in Resources */,
 				D07CE8AF1BC4E62E0045F339 /* Main.storyboard in Resources */,
-				D0A3A1A21BE87E6A0047866F /* Dog.gif in Resources */,
+				D0A3A1B91BE8938A0047866F /* Cat.mp3 in Resources */,
+				D0A3A1C71BE894E30047866F /* Dog.gif in Resources */,
 				D07CE8B41BC4E62F0045F339 /* LaunchScreen.xib in Resources */,
-				D0A3A1AB1BE8826D0047866F /* Cat.mp3 in Resources */,
-				D0A3A1AE1BE8826D0047866F /* Tiger.mp3 in Resources */,
-				D0A3A1A41BE87EF60047866F /* Duck.jpg in Resources */,
-				D0A3A1AD1BE8826D0047866F /* Duck.mp3 in Resources */,
+				D0A3A1BA1BE8938A0047866F /* Crow.mp3 in Resources */,
 				D07CE8B11BC4E62E0045F339 /* Images.xcassets in Resources */,
-				D0A3A1B01BE888C70047866F /* crow.jpg in Resources */,
-				D0A3A1B21BE889B90047866F /* Crow.mp3 in Resources */,
-				D0A3A1AC1BE8826D0047866F /* Dog.mp3 in Resources */,
+				D0A3A1BC1BE8938A0047866F /* Duck.mp3 in Resources */,
+				D0A3A1BB1BE8938A0047866F /* Dog.mp3 in Resources */,
+				D0A3A1C31BE894CF0047866F /* CARTOON_Cat-full.jpg in Resources */,
+				D0A3A1BF1BE894A70047866F /* Duck.jpg in Resources */,
+				D0A3A1C11BE894BF0047866F /* Tiger.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
