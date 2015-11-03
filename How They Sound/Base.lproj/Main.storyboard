@@ -12,36 +12,45 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" horizontalCompressionResistancePriority="57" verticalCompressionResistancePriority="70" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9g-ga-OT6">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9g-ga-OT6">
                                 <rect key="frame" x="8" y="96" width="81" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="COW">
+                                <state key="normal" image="Tiger.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="23" y="49" width="57" height="70"/>
+                                </variation>
                                 <connections>
                                     <action selector="buttonPressedForSoundOfCow:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="X79-lZ-Ea6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UB-nh-VLI">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UB-nh-VLI">
                                 <rect key="frame" x="21" y="274" width="54" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="DOG">
+                                <state key="normal" title="DOG" image="Dog.gif">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="205" width="57" height="70"/>
+                                </variation>
                                 <connections>
                                     <action selector="buttonPressedForSoundOfDog:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jS0-lu-YiK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgO-jU-11A">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgO-jU-11A">
                                 <rect key="frame" x="25" y="181" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="CAT">
+                                <state key="normal" image="CARTOON_Cat-full.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="23" y="127" width="57" height="70"/>
+                                </variation>
                                 <connections>
                                     <action selector="buttonPressedForSoundOfCat:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sSk-Eq-SVe"/>
                                 </connections>
@@ -52,18 +61,86 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDU-g4-i21">
+                                <rect key="frame" x="21" y="274" width="54" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" image="Duck.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="299" width="57" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttomPressedForSoundofDuck:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CJe-VA-2Nz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrO-aN-J0p">
+                                <rect key="frame" x="202" y="185" width="197" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="243" width="197" height="23"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uos-IU-1ve">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="243" width="197" height="23"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrh-30-le2">
+                                <rect key="frame" x="21" y="274" width="54" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" image="crow.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="384" width="57" height="70"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttomPressedForSoundofCrow:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ceZ-9M-5gs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="eDU-g4-i21"/>
+                                <exclude reference="LrO-aN-J0p"/>
+                                <exclude reference="Uos-IU-1ve"/>
+                                <exclude reference="Xrh-30-le2"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="eDU-g4-i21"/>
+                                <include reference="LrO-aN-J0p"/>
+                                <include reference="Uos-IU-1ve"/>
+                                <include reference="Xrh-30-le2"/>
+                            </mask>
+                        </variation>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="400" height="600"/>
                     <connections>
+                        <outlet property="labelDispayingNumberOfLegs" destination="Uos-IU-1ve" id="by1-RQ-Abn"/>
                         <outlet property="labelForDisplayofSound" destination="aHH-s4-d5N" id="LeP-qb-eMw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="367" y="198"/>
+            <point key="canvasLocation" x="366" y="198"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CARTOON_Cat-full.jpg" width="57" height="70"/>
+        <image name="Dog.gif" width="350" height="350"/>
+        <image name="Duck.jpg" width="183" height="190"/>
+        <image name="Tiger.png" width="320" height="320"/>
+        <image name="crow.jpg" width="600" height="600"/>
+    </resources>
     <color key="tintColor" red="0.64072364267676774" green="0.64072364267676774" blue="0.64072364267676774" alpha="1" colorSpace="calibratedRGB"/>
 </document>

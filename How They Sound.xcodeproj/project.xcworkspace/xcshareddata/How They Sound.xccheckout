@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C13A9E3-C202-4AAA-B0BF-59E1D31C856F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>How They Sound</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B36C25F0497BB614B844494599D818407E00BD55</key>
+		<string>https://github.com/sourcebits-naveenk/How-They-Sound.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>How They Sound.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B36C25F0497BB614B844494599D818407E00BD55</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sourcebits-naveenk/How-They-Sound.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B36C25F0497BB614B844494599D818407E00BD55</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B36C25F0497BB614B844494599D818407E00BD55</string>
+			<key>IDESourceControlWCCName</key>
+			<string>How%20They%20Sound</string>
+		</dict>
+	</array>
+</dict>
+</plist>

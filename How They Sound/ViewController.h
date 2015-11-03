@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AVAudioPlayerDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *labelForDisplayofSound;
-
-
+@property (weak, nonatomic) IBOutlet UILabel *labelDispayingNumberOfLegs;
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 
 @end
 

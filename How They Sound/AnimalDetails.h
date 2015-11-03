@@ -12,5 +12,5 @@
 
 @property (nonatomic, strong) NSString *animalName;
 @property (nonatomic, strong) NSString *animalSound;
-
+@property (nonatomic, strong) NSString *numberOfLegs;
 @end
